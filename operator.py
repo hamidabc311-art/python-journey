@@ -1,4 +1,7 @@
 # today i learn all type of operators in python
+""""
+
+from operator import is_
 
 
 print("===========================================")
@@ -48,3 +51,34 @@ print ("THE ANSWER OF k AND l IS :" ,(k//l)) # anwser = 8
 print("===========================================")
 
 print ("2. Comparison operators")
+# in this we compire two value and give answer in boolen
+x=5
+y=8
+
+print (x==y) # false
+print (x != y)# true
+print (x>y)# false
+print (x<y) # true
+print (x>=y) # false
+print (x<=y) # true
+""
+
+print ("===========================================")
+print ("3. Logical opreaetor")
+# this is used for combine multiple condition and it give answer in boolean
+"""
+""""
+and _ all conditon will true than it give true return 
+or _  at list give one condition ture than it give true return
+not _  is reverse oprend 
+suppose the conditon is ture the not opretor make him false 
+and to false condtion convert to true seem it work as reverse
+"""
+
+ 
+age = 19
+is_hamid = True
+
+print (age>18 and is_hamid)
+print (age<18 or is_hamid)
+print ( not is_hamid)
