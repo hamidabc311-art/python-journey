@@ -44,4 +44,7 @@ print("===========================================")
 print (" FLOOR DIVISION") # means how many times the divisor fits into the dividend
 k = 17
 l = 2
-print ("THE ANSWER OF k AND l IS :" ,(k//l)) # anwser = 2
+print ("THE ANSWER OF k AND l IS :" ,(k//l)) # anwser = 8
+print("===========================================")
+
+print ("2. Comparison operators")
