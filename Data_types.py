@@ -33,4 +33,3 @@ print ("the value of x is :",x)
 # the answer will be None
 
 # these are the five data types of python
-ss

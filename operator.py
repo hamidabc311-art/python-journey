@@ -1,5 +1,5 @@
 # today i learn all type of operators in python
-""""
+
 
 from operator import is_
 
@@ -66,7 +66,7 @@ print (x<=y) # true
 print ("===========================================")
 print ("3. Logical opreaetor")
 # this is used for combine multiple condition and it give answer in boolean
-"""
+
 """"
 and _ all conditon will true than it give true return 
 or _  at list give one condition ture than it give true return
@@ -82,3 +82,5 @@ is_hamid = True
 print (age>18 and is_hamid)
 print (age<18 or is_hamid)
 print ( not is_hamid)
+
+print ("===============================================")
