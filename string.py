@@ -33,6 +33,50 @@ print ("4. String slicing")
 # string[start:stop:step]
 string = "i lern the python"
 print (len(string))
-print (string[0:1])
-print (string[0:17])
-print (string[0:4])
+print (string[0:5]) # i lern
+print (string[6:9]) # the
+print (string[10:16]) # python
+print (string[0:16:2]) # i er h yhn
+
+print ("========================================================")
+
+print ("5. string repetition")
+# in this we repeat the string
+string = "hamid khan "
+print (string*6) # hamid khan hamid khan hamid khan hamid khan hamid khan hamid 
+
+print ("=========================================================")
+
+# string concatenation
+# in this we join the string
+s4 = "Hello"
+s5 = "World"
+s6 = s4 + " " + s5
+print(s6)
+
+print ("==========================================================")
+# string membership
+# in this we check the string is present or not
+string = "hamid khan"
+print("hamid" in string) # True
+print("khan" in string) # True
+print("Alice" in string) # False
+
+print ("===========================================================")
+
+# string methods
+# in this we use the string methods
+string = "Hello, World!"
+print(string.upper()) # HELLO, WORLD!
+print (string . capitalize()) # Hello, world!
+print (string.lower()) # hello, world!
+
+print ("=============================================================")
+
+print ("6. String formatting")
+# in this we format the string
+name = "Alice"
+age = 25
+print(f"Hello, my name is {name} and I am {age} years old.")
+
+
