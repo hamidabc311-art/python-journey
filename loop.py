@@ -1,4 +1,4 @@
-"""# Today i lern the loop in detail with all type
+# Today i lern the loop in detail with all type
 print(" what is loop")
 # loop is the sturture with help we repite the bloak of code multiple time
 # types of loop is 
@@ -93,7 +93,7 @@ a=int(input("entir the number :: "))
 for i in range(1,11):
     print(a*i) # the anser will be 5 to 50 
 
- """
+ 
 # last assigment of loop 
 # write the programe from which find the facotrial of first natural number(using for loop)
 n=3
