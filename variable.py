@@ -7,7 +7,7 @@ variable is a name used to store data in a memory
 name = "hamid"
 print (name )
 age = "18"
-print (age)
+print (age) 
 
 
 # types of varible 

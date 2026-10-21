@@ -53,5 +53,3 @@ if password ==(7777):
 else :
     if password != (7777):
         print ("the password is incorrect:")
-    
-
