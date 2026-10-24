@@ -1,4 +1,4 @@
-# TODAY I WILL LERAN THE LIST OF PYTHON
+"""# TODAY I WILL LERAN THE LIST OF PYTHON
 print ("list  in  python")
 # list is a built in  data type where we store value
 # it  can store  the value of dfiffernt data type (int ,flot , and string etc)
@@ -76,3 +76,9 @@ print(t)
 
 print("===========================================================")
 # we cover the list in python
+"""
+
+a=[input("entir the three favirte movie")]
+
+a.append[a]
+print(a)
