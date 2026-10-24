@@ -27,3 +27,18 @@ print(a[3]) # they will print 4
 print(a[4]) # they will print 5
 
 print("===========================================================")
+
+# tuple methods are same as list methods but we can not change the 
+# value of tuple because tuple is immutable
+
+# 1 # count method is used to count the number of occurrences of an element in a tuple
+a=(1,2,3,4,5,1,2,3,4,5)
+print(a.count(1)) # they will print 2
+
+#2 # index method is used to find the index of an element in a tuple
+a=(1,2,3,4,5,1,2,3,4,5)
+print(a.index(1)) # they will print 0
+
+# 3 # len method is used to find the length of a tuple
+a=(1,2,3,4,5,1,2,3,4,5)
+print(len(a)) # they will print 10
